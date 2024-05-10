@@ -1,0 +1,18 @@
+{
+  "table": "dbo.especialidad",
+  "fieds": [
+    "cod_especialidad",
+    "descripcion"
+  ],
+  "values": [
+    [101, "Coaching Deportivo"],
+    [102, "Entrenador Personal"],
+    [103, "Preparador físico"],
+    [104, "Readaptacion Deportiva"],
+    [105, "Profesor de educación física."],
+    [106, "Coordinador deportivo"],
+    [107, "Ciencias de la medicina del deporte"],
+    [108, "Ciencias y tecnología del deporte"],
+    [109, "Recreación y desarrollo deportivo."]
+  ]
+}

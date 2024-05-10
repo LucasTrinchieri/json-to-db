@@ -1,0 +1,16 @@
+{
+  "name": "slqserver-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-sql": "^0.5.0",
+    "mssql": "^10.0.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "insert": {
+    "dialect": "mssql",
+    "type": "insert",
+    "table": "",
+    "values": [],
+    "condition": [{}]
+  },
+  "select": {
+    "dialect": "mssql",
+    "type": "insert",
+    "table": "dbo.actividad",
+    "fields": [],
+    "alias": "",
+    "join": [{
+      "type":"",
+      "table":"",
+      "alias":"",
+      "on":""
+    }],
+    "group":[],
+    "sort": [],
+    "limit":0,
+    "offset":0,
+    "condition": [{}]
+  }
+}
