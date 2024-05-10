@@ -1,0 +1,16 @@
+{
+  "server": "localhost",
+  "authentication": {
+    "type": "default",
+    "options": {
+      "userName": "rrhh",
+      "password": "rrhh123"
+    }
+  },
+  "options": {
+    "trustedConnection": true,
+    "trustServerCertificate": true,
+    "database": "RRHH"
+  },
+  "port": 54435
+}
