@@ -6,7 +6,7 @@
 4. En el campo "values", dentro de un array, colocar los valores que tendrán cada uno de los campos. En el archivo input.json se incluye un ejemplo de cómo hacerlo.
 
 Para configurar la conexión a la base de datos, se debe modificar el archivo config.js.<br>
-Para ejecutar el script, se necesita Node. Y se ejecuta con el comando node script.js
+Para ejecutar el script, se necesita Node. Y se ejecuta con el comando `node script.js`
 
 ### Importante
 La conexion a la Base de Datos la realiza utilizando usuario y contraseña, como tambien el puerto en el corre su SQLSERVER.<br>
