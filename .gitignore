@@ -1,2 +1,5 @@
 node_modules
 .env
+
+# es un archivo que se va a modificar siempre
+input.json
