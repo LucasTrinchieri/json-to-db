@@ -5,6 +5,8 @@
 3. En el campo "fields", dentro de un array en formato de "strings", colocar los nombres de los campos de la tabla.
 4. En el campo "values", array de arrays, colocar los valores que tendrán cada uno de los campos.
 5. En el campo "consts", array de arrays, colocar todas las opciones de valores que puede llegar a tener cada campo, teniendo en cuenta que cada array hace referencia a los campos de la tabla en el orden que son colocados en fields
+#### Importante
+Si utilizamos el campo "consts", el campo "values" hay que dejarlo como un array vacio 
 
 Para configurar la conexión a la base de datos, se debe modificar el archivo config.js.<br>
 Para ejecutar el script, se necesita Node. Y se ejecuta con el comando `node script.js`
