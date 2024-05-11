@@ -3,7 +3,7 @@ const input = require('./input.json')
 const getRandomValues = require('./randomizer.js')
 
 const fields = input.fields
-const valuesArray = input.values.length > 0 ? input.values : getRandomValues(input.consts, input.consts.length)
+const valuesArray = input.values.length > 0 ? input.values : getRandomValues(input.consts.values, input.consts.iter)
 
 function generateObj(fields, valores) {
   if (fields.length !== valores.length) {
