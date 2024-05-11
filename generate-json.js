@@ -1,8 +1,9 @@
 const json = require('./data.json')
 const input = require('./input.json')
+const getRandomValues = require('./randomizer.js')
 
-const fields = input.fieds
-const valuesArray = input.values
+const fields = input.fields
+const valuesArray = input.values.length > 0 ? input.values : getRandomValues(input.consts, input.consts.length)
 
 function generateObj(fields, valores) {
   if (fields.length !== valores.length) {
@@ -31,8 +32,8 @@ function generateNewValues(fields, valoresArray, cantidad){
 
 const newValues = generateNewValues(fields, valuesArray, valuesArray.length)
 
-json.insert.table = input.table
 json.insert.values = newValues
+json.insert.table = input.table
 
 module.exports = data = {
   ...json
