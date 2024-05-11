@@ -3,7 +3,9 @@
 1. Abrir el archivo input.json.
 2. En el campo "table", ingresar el nombre de la tabla donde se desean colocar los valores.
 3. En el campo "fields", dentro de un array en formato de "strings", colocar los nombres de los campos de la tabla.
-4. En el campo "values", dentro de un array, colocar los valores que tendrán cada uno de los campos. En el archivo input.json se incluye un ejemplo de cómo hacerlo.
+4. En el campo "values", array de arrays, colocar los valores que tendrán cada uno de los campos.
+5. En el campo "consts", array de arrays, esta especializado para combinar valores, colocar todas las opciones de valores que puede llegar a tener cada campo, teniendo en cuenta que cada array hace referencia a los campos de la tabla en el orden que son colocados en fields
+#### Si utilizamos el campo "consts", el campo "values" hay que dejarlo como un array vacio [] 
 
 Para configurar la conexión a la base de datos, se debe modificar el archivo config.js.<br>
 Para ejecutar el script, se necesita Node. Y se ejecuta con el comando `node script.js`
