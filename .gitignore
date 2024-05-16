@@ -3,3 +3,11 @@ node_modules
 
 # es un archivo que se va a modificar siempre
 input.json
+config.json
+
+# archivos varios
+
+clientes.js
+empleados-filtrados.json
+clientes-filtrados.json
+*.txt
