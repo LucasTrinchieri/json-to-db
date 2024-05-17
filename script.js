@@ -26,6 +26,4 @@ async function sqlScript(query) {
   }
 }
 
-//sqlScript(sql.query)
-
-console.log("data.insert.values: ",data.insert.values)
+sqlScript(sql.query)
