@@ -1,5 +1,6 @@
 const { fakerES_MX: faker } = require('@faker-js/faker')
 const fs = require('fs')
+const multi = require('./multiplier')
 
 const cliente = () => {
   const nombre = faker.person.firstName()
@@ -30,20 +31,34 @@ const empleado = () => {
     fecha_nacimiento: faker.date.birthdate({max: 50, mode: 'age'}),
     fecha_ingreso: ingreso,
     fecha_egreso: faker.date.between({from: ingreso, to:''}),
-    telefono: faker.phone.number('342######')
+    //telefono: faker.phone.number('342######')
+    telefono: parseInt(faker.helpers.fromRegExp(/342[0-9]{6}/))
   }
 
   return empleado
 }
 
-const generateDataArray = (cantidad) => {
+const venta = () => {
+  const venta = {
+    nro_ticket: faker.number.int({min: 10000, max: 100000}),
+    fecha: faker.date,
+    cod_empleado: '',
+    cod_cliente: '',
+    monto: ''
+  }
+
+  return venta
+}
+
+const generateDataArray = (cantidad, func) => {
   const newArray = [];
   for (let i = 0; i < cantidad; i++) {
-    newArray.push(empleado());
+    newArray.push(eval(func)());
   }
   return newArray;
 }
 
+// only for necesary uses
 const storeDataArray = (empleados) => {
   const content = JSON.stringify(empleados, null, 2);
   fs.writeFile('empleados.json', content, (err) => {
@@ -55,8 +70,20 @@ const storeDataArray = (empleados) => {
   });
 }
 
-const empleadosObj = generateDataArray(100)
-storeDataArray(empleadosObj)
+function getDistributedValues({cant, years, func}){
+  let newArray = []
+  for(let i = 0; i<years; i++){
+    for(let j = 1; j<13; j++){
+      const dataArray = generateDataArray(cant * multi(j), func)
+      newArray = newArray.concat(dataArray)
+    }
+  }
+  return newArray
+}
 
-//module.exports = cliente
-//module.exports = empleado
+module.exports = {
+  cliente,
+  empleado,
+  generateDataArray,
+  getDistributedValues
+}

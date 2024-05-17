@@ -1,9 +1,22 @@
 const json = require('./data.json')
 const input = require('./input.json')
-const getRandomValues = require('./randomizer.js')
+const {filterValues} = require('./filter-data.js')
 
 const fields = input.fields
-const valuesArray = input.values.length > 0 ? input.values : getRandomValues(input.consts.values, input.consts.iter)
+const valuesArray = input.values
+
+let newValues = {}
+
+if(input.useFaker){
+  if(input.isDistributed){
+    newValues = filterValues({cant:input.amount, func:input.function, isDistributed: input.isDistributed})
+  }else{
+    newValues = filterValues({cant:input.amount, func:input.function})
+  }
+}else{
+  newValues = generateNewValues(fields, valuesArray, valuesArray.length)
+}
+
 
 function generateObj(fields, valores) {
   if (fields.length !== valores.length) {
@@ -29,8 +42,6 @@ function generateNewValues(fields, valoresArray, cantidad){
 
   return newValues
 }
-
-const newValues = generateNewValues(fields, valuesArray, valuesArray.length)
 
 json.insert.values = newValues
 json.insert.table = input.table

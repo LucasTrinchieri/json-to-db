@@ -15,7 +15,7 @@ function calculateMultiplier(month) {
     multiplier *= 0.8;  // 20% reduction for January, February, July, and August
   }
   
-  return multiplier;
+  return multiplier
 }
 
 module.exports = calculateMultiplier
