@@ -59,8 +59,8 @@ const generateDataArray = (cantidad, func) => {
 }
 
 // only for necesary uses
-const storeDataArray = (empleados) => {
-  const content = JSON.stringify(empleados, null, 2);
+const storeDataArray = (array) => {
+  const content = JSON.stringify(array, null, 2);
   fs.writeFile('empleados.json', content, (err) => {
     if (err) {
       console.error('Error al escribir en el archivo:', err);

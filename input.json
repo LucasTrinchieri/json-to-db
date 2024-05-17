@@ -6,5 +6,6 @@
   "isDistributed": false,
   "years": 0,
   "function": "empleado",
-  "amount": 0
+  "amount": 0,
+  "json":"empleados.json"
 }
