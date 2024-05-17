@@ -41,7 +41,7 @@ const empleado = () => {
 const venta = () => {
   const venta = {
     nro_ticket: faker.number.int({min: 10000, max: 100000}),
-    fecha: faker.date,
+    fecha: faker.date.recent(),
     cod_empleado: '',
     cod_cliente: '',
     monto: ''
@@ -58,17 +58,18 @@ const generateDataArray = (cantidad, func) => {
   return newArray;
 }
 
-// only for necesary uses
-const storeDataArray = (array) => {
+const storeDataArray = (array, fileName) => {
   const content = JSON.stringify(array, null, 2);
-  fs.writeFile('empleados.json', content, (err) => {
+  fs.writeFile(`./jsons/${fileName}.json`, content, (err) => {
     if (err) {
-      console.error('Error al escribir en el archivo:', err);
+      console.error('Error al escribir en el archivo:', err)
       return;
     }
-    console.log('Los empleados se han guardado en empleados.json');
+    console.log(`Los datos se han guardado en ${fileName}.json`)
   });
 }
+
+//storeDataArray(generateDataArray(2, input.function), input['json-file-name'])
 
 function getDistributedValues({cant, years, func}){
   let newArray = []
@@ -83,5 +84,6 @@ function getDistributedValues({cant, years, func}){
 
 module.exports = {
   generateDataArray,
-  getDistributedValues
+  getDistributedValues,
+  storeDataArray
 }

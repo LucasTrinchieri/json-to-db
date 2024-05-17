@@ -1,8 +1,13 @@
 const sqlConector = require('mssql')
 var jsonSql = new (require('json-sql').Builder)({separatedValues: false})
 const data = require('./utils/generate-json.js')
+const input = require('./input.json')
 
 const config = require('./config.json')
+
+if(input['json-file-name']){
+  return
+}
 
 var sql = jsonSql.build({
   dialect: data.insert.dialect,  

@@ -1,11 +1,12 @@
 {
   "table": "dbo.empleado",
-  "fields": [],
+  "fields": ["legajo", "nombre", "apellido"],
   "values": [],
-  "useFaker": false,
+  "useFaker": true,
   "isDistributed": false,
   "years": 0,
   "function": "empleado",
-  "amount": 0,
-  "json":"empleados.json"
+  "amount": 2,
+  "json-to-input":"",
+  "json-file-name": "empleado-fake"
 }
