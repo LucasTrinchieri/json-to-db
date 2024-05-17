@@ -1,0 +1,902 @@
+[
+  [
+    83956,
+    "Isabel",
+    "Korta",
+    "Aldea Caridad s/n.",
+    706391,
+    "2015-06-28T03:37:10.509Z",
+    "2016-05-21T02:33:13.400Z"
+  ],
+  [
+    66269,
+    "Jorge Luis",
+    "Alcala",
+    "Ferrocarril Manuela Rubio 8391",
+    813855,
+    "2015-12-30T08:39:57.091Z",
+    "2018-04-01T12:11:31.901Z"
+  ],
+  [
+    69064,
+    "Felipe",
+    "Kaplan",
+    "Extramuros Julieta s/n.",
+    678847,
+    "2018-08-27T05:52:57.475Z",
+    null
+  ],
+  [
+    65030,
+    "María Soledad",
+    "Montaño",
+    "Grupo Coruña 3617",
+    869697,
+    "2015-11-29T15:06:44.354Z",
+    null
+  ],
+  [
+    34864,
+    "Gerardo",
+    "Acevedo",
+    "Carretera María Soledad s/n.",
+    997908,
+    "2022-03-04T01:54:16.377Z",
+    null
+  ],
+  [
+    53060,
+    "Gabriel",
+    "Mondragón",
+    "Rampa José Eduardo 230",
+    971043,
+    "2022-12-06T19:26:03.575Z",
+    null
+  ],
+  [
+    36488,
+    "Lourdes",
+    "Montero",
+    "Apartamento Fernando Javier 9328",
+    701912,
+    "2023-01-17T15:50:13.038Z",
+    null
+  ],
+  [
+    33828,
+    "Gabriela",
+    "Balderas",
+    "Barranco Lorenzo Puente s/n.",
+    926408,
+    "2018-01-10T16:30:15.504Z",
+    null
+  ],
+  [
+    73694,
+    "Eloisa",
+    "Vaca",
+    "Manzana Samuel Yami 595",
+    791093,
+    "2016-04-21T11:42:29.967Z",
+    "2021-04-20T12:49:29.040Z"
+  ],
+  [
+    48766,
+    "Leonardo",
+    "Serna",
+    "Prolongación Jalisco 499",
+    815764,
+    "2018-05-06T03:09:09.194Z",
+    null
+  ],
+  [
+    31834,
+    "Benito",
+    "Xana",
+    "Urbanización Carmen 4",
+    760566,
+    "2024-05-11T21:14:55.991Z",
+    null
+  ],
+  [
+    46598,
+    "Gabriela",
+    "Granados",
+    "Ronda Norma Arteaga s/n.",
+    680425,
+    "2015-11-12T00:11:41.657Z",
+    "2016-02-08T22:47:47.731Z"
+  ],
+  [
+    88057,
+    "Estefanía",
+    "Fuentes",
+    "Puerta Eje Central 53",
+    880050,
+    "2021-11-30T03:47:41.459Z",
+    null
+  ],
+  [
+    23600,
+    "Daniel",
+    "Delapaz",
+    "Pasaje Maricarmen 3",
+    850254,
+    "2015-09-26T03:17:29.079Z",
+    null
+  ],
+  [
+    62924,
+    "Cristobal",
+    "Leiva",
+    "Quinta Joaquín 2824",
+    769743,
+    "2019-08-08T03:11:59.109Z",
+    null
+  ],
+  [
+    40526,
+    "Rocio",
+    "Archuleta",
+    "Rampa Flor Solvestre 5",
+    901346,
+    "2023-03-12T05:20:34.753Z",
+    null
+  ],
+  [
+    75822,
+    "Claudia",
+    "Maldonado",
+    "Lugar Melissa Rosas s/n.",
+    836223,
+    "2018-01-07T05:15:04.635Z",
+    "2019-09-28T02:24:09.152Z"
+  ],
+  [
+    48083,
+    "Melissa",
+    "Lozada",
+    "Puente Flor Marina, 20",
+    693596,
+    "2019-08-01T01:48:28.528Z",
+    "2019-09-01T04:23:00.122Z"
+  ],
+  [
+    86855,
+    "Alexander",
+    "Ñañez",
+    "Puerta Abraham 2",
+    728068,
+    "2024-02-08T03:31:02.292Z",
+    null
+  ],
+  [
+    72704,
+    "Natalia",
+    "Banda",
+    "Sección Micaela 5",
+    678727,
+    "2023-08-20T17:27:20.751Z",
+    null
+  ],
+  [
+    27807,
+    "Elena",
+    "Perales",
+    "Senda Julieta Jáquez 66",
+    655747,
+    "2024-01-11T07:00:34.969Z",
+    null
+  ],
+  [
+    58999,
+    "Virginia",
+    "Valdez",
+    "Parcela Matías 6",
+    654943,
+    "2015-04-21T15:53:21.936Z",
+    "2017-01-24T19:29:04.753Z"
+  ],
+  [
+    27835,
+    "Yamileth",
+    "Cazares",
+    "Rambla Balcón de los edecanes 51",
+    982837,
+    "2023-08-27T17:06:22.860Z",
+    null
+  ],
+  [
+    84886,
+    "Israel",
+    "Alvarez",
+    "Urbanización Conchita, 97",
+    976491,
+    "2019-07-08T01:32:30.843Z",
+    "2021-01-21T03:06:19.554Z"
+  ],
+  [
+    51858,
+    "Camila",
+    "Ocampo",
+    "Lugar San Miguel, 85",
+    850688,
+    "2015-11-10T23:25:01.692Z",
+    "2015-12-22T19:21:06.818Z"
+  ],
+  [
+    53010,
+    "Elisa",
+    "Sevilla",
+    "Riera Lizbeth Medina 581",
+    773117,
+    "2022-08-12T03:48:30.596Z",
+    null
+  ],
+  [
+    59637,
+    "Andrea",
+    "Serna",
+    "Explanada Conchita Arreola 6",
+    686653,
+    "2023-07-09T19:18:56.402Z",
+    null
+  ],
+  [
+    85371,
+    "Felipe",
+    "Vargas",
+    "Subida Diego Ybarra, 12",
+    702012,
+    "2021-03-16T19:29:14.847Z",
+    "2021-08-01T10:11:46.290Z"
+  ],
+  [
+    64676,
+    "Rubén",
+    "Chavarría",
+    "Extrarradio Clemente Garrido 9",
+    796119,
+    "2019-10-03T12:25:05.757Z",
+    null
+  ],
+  [
+    24678,
+    "Ángela",
+    "Roybal",
+    "Solar Zapata 540",
+    905144,
+    "2023-06-19T18:06:02.849Z",
+    null
+  ],
+  [
+    76846,
+    "José Miguel",
+    "Fonseca",
+    "Escalinata San Miguel 6730",
+    928752,
+    "2020-09-23T20:59:56.104Z",
+    null
+  ],
+  [
+    54749,
+    "Eva",
+    "Agosto",
+    "Torrente Coyoacán 61",
+    933202,
+    "2015-07-01T11:23:10.375Z",
+    "2019-08-15T10:45:20.935Z"
+  ],
+  [
+    48993,
+    "Samuel",
+    "Pelayo",
+    "Explanada 20 de Noviembre 906",
+    605386,
+    "2019-12-12T15:10:25.390Z",
+    "2020-08-12T13:44:12.215Z"
+  ],
+  [
+    29614,
+    "Alfonso",
+    "Cortez",
+    "Vía Jacobo, 7",
+    922596,
+    "2018-04-21T20:01:45.683Z",
+    null
+  ],
+  [
+    83716,
+    "María Fernanda",
+    "Toro",
+    "Arrabal Esteban Kardache soto 4",
+    795995,
+    "2018-01-19T04:31:26.705Z",
+    null
+  ],
+  [
+    21288,
+    "Agustín",
+    "Aguayo",
+    "Lado Donceles 2830",
+    637890,
+    "2014-10-24T00:45:19.269Z",
+    "2016-10-03T18:30:50.307Z"
+  ],
+  [
+    36911,
+    "Emiliano",
+    "Esquibel",
+    "Polígono Hernán Solano s/n.",
+    992583,
+    "2015-11-15T07:00:40.760Z",
+    null
+  ],
+  [
+    20411,
+    "Matías",
+    "Peña",
+    "Avenida Mario Kardache soto 72",
+    611666,
+    "2023-12-10T17:10:37.283Z",
+    null
+  ],
+  [
+    85999,
+    "Gonzalo",
+    "Alanis",
+    "Parcela La otra banda 9",
+    810168,
+    "2014-06-03T08:09:02.632Z",
+    "2015-03-13T18:31:09.204Z"
+  ],
+  [
+    21554,
+    "Martín",
+    "Agosto",
+    "Jardines Jalisco, 89",
+    601982,
+    "2020-11-26T12:39:37.881Z",
+    null
+  ],
+  [
+    48610,
+    "Roberto",
+    "Adame",
+    "Rampa Julia Nevárez s/n.",
+    767481,
+    "2021-10-08T01:08:10.752Z",
+    null
+  ],
+  [
+    23430,
+    "Vanessa",
+    "Armendáriz",
+    "Carretera Alejandro s/n.",
+    652974,
+    "2018-08-26T20:46:39.794Z",
+    "2020-06-24T06:25:57.535Z"
+  ],
+  [
+    58506,
+    "Lucia",
+    "González",
+    "Huerta Jalisco 2",
+    938160,
+    "2020-02-05T21:24:58.624Z",
+    null
+  ],
+  [
+    82413,
+    "Alfredo",
+    "Córdova",
+    "Apartamento Uriel Cadena 9637",
+    817251,
+    "2014-12-07T04:59:48.222Z",
+    null
+  ],
+  [
+    82092,
+    "Julieta",
+    "Arreola",
+    "Terrenos Ana María Quintana 97",
+    710574,
+    "2019-03-20T02:19:32.674Z",
+    null
+  ],
+  [
+    57027,
+    "Isaac",
+    "Sierra",
+    "Torrente Liliana s/n.",
+    613267,
+    "2022-06-26T16:01:04.314Z",
+    null
+  ],
+  [
+    58722,
+    "Rocio",
+    "Girón",
+    "Paseo San Miguel, 55",
+    721047,
+    "2016-03-22T14:26:38.136Z",
+    "2017-05-31T17:32:55.091Z"
+  ],
+  [
+    22302,
+    "Octavio",
+    "Monroy",
+    "Gran Subida Eva 575",
+    816530,
+    "2019-07-26T04:49:24.090Z",
+    null
+  ],
+  [
+    60675,
+    "Alexa",
+    "Castañeda",
+    "Calleja Rosa María, 87",
+    997272,
+    "2018-11-27T08:38:12.141Z",
+    "2019-07-12T12:12:46.802Z"
+  ],
+  [
+    81575,
+    "Luis Ángel",
+    "Patiño",
+    "Colonia Piedra del Comal, 69",
+    792222,
+    "2021-02-15T14:13:01.050Z",
+    null
+  ],
+  [
+    63005,
+    "Jazmin",
+    "Galarza",
+    "Conjunto Donceles 8068",
+    850657,
+    "2020-09-11T06:11:26.327Z",
+    "2020-12-27T14:25:30.389Z"
+  ],
+  [
+    33740,
+    "Ana Luisa",
+    "Montañez",
+    "Barranco Mónica, 21",
+    724880,
+    "2019-08-12T14:31:29.628Z",
+    "2020-07-15T04:17:15.414Z"
+  ],
+  [
+    86870,
+    "Jennifer",
+    "Arteaga",
+    "Cuesta Repúplica de Cuba 2267",
+    943905,
+    "2023-10-14T20:58:43.747Z",
+    null
+  ],
+  [
+    26440,
+    "Carla",
+    "Ordóñez",
+    "Plaza Esmeralda Puente s/n.",
+    787270,
+    "2016-10-21T10:59:09.855Z",
+    "2019-11-16T13:12:48.447Z"
+  ],
+  [
+    68192,
+    "Sonia",
+    "Bernal",
+    "Mercado Iker 6720",
+    993563,
+    "2023-12-28T12:44:52.831Z",
+    null
+  ],
+  [
+    84833,
+    "Ricardo",
+    "Riojas",
+    "Glorieta Ricardo Rendón 7",
+    820904,
+    "2017-10-29T04:47:05.581Z",
+    "2019-07-30T18:22:07.951Z"
+  ],
+  [
+    77843,
+    "Pilar",
+    "Vargas",
+    "Puente Repúplica de Uruguay 4566",
+    794021,
+    "2014-11-30T09:06:45.391Z",
+    "2016-05-07T10:28:53.906Z"
+  ],
+  [
+    81589,
+    "Alberto",
+    "Cerda",
+    "Partida Elsa Luevano 9",
+    956912,
+    "2023-03-04T20:27:14.766Z",
+    null
+  ],
+  [
+    25735,
+    "Marisol",
+    "Hidalgo",
+    "Prolongación Polotitlan 79",
+    737951,
+    "2019-08-06T21:10:35.606Z",
+    "2021-05-22T18:44:00.657Z"
+  ],
+  [
+    26669,
+    "Aarón",
+    "Alcaraz",
+    "Riera Abril Ávalos 4",
+    724168,
+    "2016-09-16T15:06:21.148Z",
+    null
+  ],
+  [
+    55895,
+    "Horacio",
+    "Tejada",
+    "Torrente Eje Central 2",
+    776245,
+    "2022-10-02T07:32:53.773Z",
+    null
+  ],
+  [
+    66185,
+    "Jennifer",
+    "Karam",
+    "Ferrocarril Amores, 34",
+    806175,
+    "2014-08-07T21:27:07.572Z",
+    "2015-07-07T08:52:44.906Z"
+  ],
+  [
+    30859,
+    "Emiliano",
+    "Rojas",
+    "Grupo Julieta 45",
+    758786,
+    "2020-07-02T02:30:11.850Z",
+    "2020-09-29T22:06:29.352Z"
+  ],
+  [
+    40433,
+    "Javier",
+    "Sanabria",
+    "Subida Francisco Javier, 70",
+    780145,
+    "2017-10-01T15:47:46.268Z",
+    "2020-09-07T20:41:45.290Z"
+  ],
+  [
+    30087,
+    "José María",
+    "Gil",
+    "Quinta La otra banda, 38",
+    705814,
+    "2023-08-10T04:17:25.361Z",
+    null
+  ],
+  [
+    29091,
+    "Rebeca",
+    "Olivo",
+    "Rampa Timoteo 9358",
+    959095,
+    "2016-06-19T21:58:02.004Z",
+    "2021-07-29T15:46:40.339Z"
+  ],
+  [
+    50362,
+    "Kevin",
+    "Delvalle",
+    "Calleja Francisco I. Madero, 5",
+    806607,
+    "2018-01-30T17:49:30.116Z",
+    "2020-11-28T17:26:20.795Z"
+  ],
+  [
+    83340,
+    "Sofia",
+    "Rocha",
+    "Apartamento Dolores 25",
+    891138,
+    "2018-07-21T03:24:04.646Z",
+    "2020-12-07T10:57:51.869Z"
+  ],
+  [
+    75951,
+    "Inés",
+    "Kardache",
+    "Senda Victoria 7108",
+    951874,
+    "2022-01-05T17:15:37.928Z",
+    null
+  ],
+  [
+    24523,
+    "Jose Daniel",
+    "Macías",
+    "Carretera Eje Central 813",
+    999827,
+    "2021-10-10T02:06:19.676Z",
+    null
+  ],
+  [
+    60968,
+    "Elisa",
+    "Bueno",
+    "Masía Emily Regalado, 2",
+    619733,
+    "2022-10-31T01:44:52.690Z",
+    null
+  ],
+  [
+    71804,
+    "Emmanuel",
+    "Armas",
+    "Urbanización Pablo, 8",
+    601264,
+    "2022-09-22T03:44:55.769Z",
+    null
+  ],
+  [
+    66579,
+    "Marco Antonio",
+    "Camarillo",
+    "Quinta Emilio Valdivia, 6",
+    888875,
+    "2018-01-08T11:37:15.795Z",
+    "2021-08-19T09:41:37.064Z"
+  ],
+  [
+    74555,
+    "Ramón",
+    "Zúñiga",
+    "Entrada Federico Núñez, 1",
+    812401,
+    "2021-07-06T22:51:13.999Z",
+    null
+  ],
+  [
+    27675,
+    "Carmen",
+    "Escalante",
+    "Terrenos Regina Muro, 7",
+    687750,
+    "2021-03-14T11:17:11.659Z",
+    null
+  ],
+  [
+    85369,
+    "Mayte",
+    "Ibarra",
+    "Aldea Piedra del Comal 5",
+    939456,
+    "2018-08-04T09:18:35.334Z",
+    null
+  ],
+  [
+    60484,
+    "Diego",
+    "Arellano",
+    "Quinta Erick Calderón, 65",
+    675245,
+    "2018-01-20T17:42:44.060Z",
+    "2021-04-15T22:16:20.344Z"
+  ],
+  [
+    77643,
+    "Marta",
+    "Terán",
+    "Prolongación Repúplica de Cuba, 5",
+    602684,
+    "2014-07-19T15:16:22.901Z",
+    "2014-08-23T03:04:19.511Z"
+  ],
+  [
+    68073,
+    "Sergio",
+    "Delvalle",
+    "Travesía Victor Manuel 70",
+    630365,
+    "2023-03-21T10:08:56.536Z",
+    null
+  ],
+  [
+    54328,
+    "Zoe",
+    "Reyna",
+    "Caserio María Fernanda, 64",
+    936528,
+    "2019-10-08T13:09:20.285Z",
+    "2019-11-22T02:07:42.280Z"
+  ],
+  [
+    88783,
+    "Sebastian",
+    "Villegas",
+    "Rampa José Miguel, 31",
+    950449,
+    "2016-07-27T17:50:22.597Z",
+    "2019-09-01T12:04:36.938Z"
+  ],
+  [
+    25860,
+    "Alfredo",
+    "Casares",
+    "Chalet Miguel Ángel de Quevedo s/n.",
+    817126,
+    "2015-10-03T19:17:20.874Z",
+    "2020-07-04T18:48:06.384Z"
+  ],
+  [
+    73007,
+    "Dulce María",
+    "Robles",
+    "Puerta José Miguel Gaitán s/n.",
+    754156,
+    "2016-05-27T02:54:09.876Z",
+    "2017-02-10T01:12:01.988Z"
+  ],
+  [
+    46755,
+    "Jesús",
+    "Lemus",
+    "Lado Miguel Ángel de Quevedo s/n.",
+    908514,
+    "2020-02-16T08:31:40.358Z",
+    null
+  ],
+  [
+    67257,
+    "Mercedes",
+    "Godínez",
+    "Paseo Jose Daniel Mireles, 57",
+    713049,
+    "2021-05-20T13:37:56.920Z",
+    null
+  ],
+  [
+    28009,
+    "Camila",
+    "Xicoy",
+    "Lado Fernando Javier Delvalle, 1",
+    627964,
+    "2021-12-18T10:18:07.939Z",
+    null
+  ],
+  [
+    44822,
+    "Ivanna",
+    "Arroyo",
+    "Colegio Juan Carlos Ruelas, 70",
+    967643,
+    "2014-09-29T01:38:50.373Z",
+    "2016-03-16T14:05:15.202Z"
+  ],
+  [
+    36140,
+    "Jimena",
+    "Hidalgo",
+    "Extramuros Mario 4538",
+    948328,
+    "2015-12-01T14:46:33.144Z",
+    "2021-05-20T19:58:43.494Z"
+  ],
+  [
+    37074,
+    "Verónica",
+    "Tovar",
+    "Poblado Silvia Olvera, 5",
+    916740,
+    "2021-02-15T21:02:07.946Z",
+    null
+  ],
+  [
+    61264,
+    "Sofia",
+    "Delagarza",
+    "Lado Caridad 46",
+    842416,
+    "2018-12-01T12:21:27.656Z",
+    "2019-08-24T02:12:29.227Z"
+  ],
+  [
+    74352,
+    "María Eugenia",
+    "Carrillo",
+    "Travesía Catalina Guajardo, 1",
+    865709,
+    "2017-03-19T12:05:33.764Z",
+    "2018-08-13T00:32:17.312Z"
+  ],
+  [
+    49928,
+    "Ana Luisa",
+    "Aparicio",
+    "Mercado Alberto 17",
+    835402,
+    "2019-01-26T15:23:58.563Z",
+    "2020-09-12T21:01:20.809Z"
+  ],
+  [
+    82033,
+    "Antonia",
+    "Gamboa",
+    "Travesía Luis Ángel Mercado 8",
+    709416,
+    "2019-01-19T13:33:15.659Z",
+    "2021-11-14T02:10:05.634Z"
+  ],
+  [
+    21953,
+    "Mario",
+    "Cintrón",
+    "Paseo Rosa María Viera 1500",
+    919385,
+    "2024-02-16T02:38:19.258Z",
+    null
+  ],
+  [
+    61093,
+    "Rosario",
+    "Mejía",
+    "Bloque Zapata, 9",
+    602792,
+    "2019-10-02T08:06:05.262Z",
+    "2021-08-13T20:23:07.622Z"
+  ],
+  [
+    52320,
+    "Jesús",
+    "Barajas",
+    "Plaza Jalisco, 8",
+    771395,
+    "2014-12-02T15:55:15.009Z",
+    null
+  ],
+  [
+    37155,
+    "Monserrat",
+    "Quintairos",
+    "Rincón Guillermina Girón s/n.",
+    767431,
+    "2023-09-21T02:27:34.303Z",
+    null
+  ],
+  [
+    72756,
+    "Valeria",
+    "Villalpando",
+    "Travesía Verónica Zapata, 13",
+    863565,
+    "2016-10-15T18:15:43.196Z",
+    "2019-06-10T14:24:01.242Z"
+  ],
+  [
+    57745,
+    "Teresa",
+    "Oquendo",
+    "Chalet Israel, 5",
+    609325,
+    "2021-07-18T19:13:22.784Z",
+    null
+  ],
+  [
+    61785,
+    "Maricarmen",
+    "Reynoso",
+    "Vía Pública César s/n.",
+    826231,
+    "2020-11-04T14:30:33.524Z",
+    "2021-11-29T23:48:37.934Z"
+  ]
+]
