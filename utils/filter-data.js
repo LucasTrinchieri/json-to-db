@@ -1,6 +1,5 @@
-const { da } = require('@faker-js/faker')
 const { generateDataArray, getDistributedValues } = require('./fake-data')
-const input = require('./input.json')
+const input = require('../input.json')
 
 const fields = input.fields
 const slice = false

@@ -1,6 +1,6 @@
 const sqlConector = require('mssql')
 var jsonSql = new (require('json-sql').Builder)({separatedValues: false})
-const data = require('./generate-json.js')
+const data = require('./utils/generate-json.js')
 
 const config = require('./config.json')
 

@@ -82,8 +82,6 @@ function getDistributedValues({cant, years, func}){
 }
 
 module.exports = {
-  cliente,
-  empleado,
   generateDataArray,
   getDistributedValues
 }

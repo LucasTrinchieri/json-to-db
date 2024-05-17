@@ -1,5 +1,5 @@
-const json = require('./data.json')
-const input = require('./input.json')
+const json = require('../data.json')
+const input = require('../input.json')
 const {filterValues} = require('./filter-data.js')
 
 const fields = input.fields
