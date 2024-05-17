@@ -1,12 +1,10 @@
 {
-  "table": "dbo.telefono_empleado",
-  "fields": [
-  ],
-  "values": [
-  ],
-  "consts":{
-    "values": [
-    ],
-    "iter": 0
-  } 
+  "table": "dbo.empleado",
+  "fields": [],
+  "values": [],
+  "useFaker": false,
+  "isDistributed": false,
+  "years": 0,
+  "function": "empleado",
+  "amount": 0
 }
