@@ -4,9 +4,12 @@
 2. En el campo "table", ingresar el nombre de la tabla donde se desean colocar los valores.
 3. En el campo "fields", dentro de un array en formato de "strings", colocar los nombres de los campos de la tabla.
 4. En el campo "values", array de arrays, colocar los valores que tendrán cada uno de los campos.
-5. En el campo "consts", array de arrays, esta especializado para combinar valores. En "values" colocar todas las opciones de valores que puede llegar a tener cada campo, teniendo en cuenta que cada array hace referencia a los campos de la tabla en el orden que son colocados en fields.<br>
-En "iter" colocar la cantidad de registros que se van a generar
-#### Si utilizamos el campo "consts", el campo "values" hay que dejarlo como un array vacio [] 
+5. Debajo de "values" viene todo lo relacionado a "faker.js".
+   1. "use faker" = true si queres usar faker.
+   2. "isDistributed" = true si queres que los datos tengan una distribucion estadistica (de anda a saber que forma) en cuanto a la cantidad
+   3. "years" se usa solo si usas isDistributed, se pone la cantidad de años de datos que queres cargar
+   4. "function" es un string con el nombre de la funcion que hayamos armado en `fake-data.js`, sin el ()
+   5. "amount" es la cantidad de datos que queremos generar. Si usamos "isDistributed", sera la cantidad base de datos que se cargaran por mes
 
 Para configurar la conexión a la base de datos, se debe modificar el archivo config.js.<br>
 Para ejecutar el script, se necesita Node. Y se ejecuta con el comando `node script.js`
