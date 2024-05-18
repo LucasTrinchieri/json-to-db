@@ -4,15 +4,13 @@ const fs = require('fs')
 
 const fields = input.fields
 const JSONDIR = '../jsons/'
-const json_to_input = input['json-to-input']
-const output = '../jsons/'+input['json-file-name']
 const slice = false
 const inicio = 4000 //Con 'inicio' y 'fin' establecemos el rango de elementos que queremos obtener
 const fin = 4500
 
-async function readJsonFile(file, fields){
+function readJsonFile(file, fields){
   try {
-    const data = await fs.readFile(file, {encoding: 'utf8'});
+    const data = fs.readFile(file, {encoding: 'utf8'});
   
     if (!data) {
       console.error(`El archivo '${file}' está vacío.`);
@@ -44,13 +42,15 @@ function selectFields(obj, fields) {
   })
 }
 
-async function filterValues({cant, func, isDistributed}){
+function filterJSONValues(json_to_input){
   if(json_to_input){
     const path = JSONDIR + json_to_input
-    const filteredData = await readJsonFile(path, fields)
+    const filteredData = readJsonFile(path, fields)
     return filteredData
   }
+}
 
+function filterValues({cant, func, isDistributed, output}){
   let dataArray = []
   if(isDistributed){
     dataArray = getDistributedValues({cant:cant, years:input.years, func:func})
@@ -59,7 +59,8 @@ async function filterValues({cant, func, isDistributed}){
   }
 
   if(output){
-    storeDataArray(dataArray, output)
+    const path = JSONDIR + output
+    storeDataArray(dataArray, path)
     return
   }
   const filteredData = selectFields(dataArray, fields)
@@ -67,4 +68,4 @@ async function filterValues({cant, func, isDistributed}){
   return filteredData
 }
 
-module.exports = { filterValues }
+module.exports = { filterValues, filterJSONValues }

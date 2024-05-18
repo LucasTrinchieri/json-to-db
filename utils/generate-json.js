@@ -1,6 +1,6 @@
 const json = require('../data.json')
 const input = require('../input.json')
-const {filterValues} = require('./filter-data.js')
+const {filterValues, filterJSONValues} = require('./filter-data.js')
 
 const fields = input.fields
 const valuesArray = input.values
@@ -8,13 +8,17 @@ const valuesArray = input.values
 let newValues = {}
 
 if(input.useFaker){
-  if(input.isDistributed){
-    newValues = filterValues({cant:input.amount, func:input.function, isDistributed: input.isDistributed})
-  }else{
-    newValues = filterValues({cant:input.amount, func:input.function})
-  }
+  newValues = filterValues({cant:input.amount, 
+                            func:input.function, 
+                            isDistributed: input.isDistributed,
+                            output: input['json-file-name']
+                          })
 }else{
-  newValues = generateNewValues(fields, valuesArray, valuesArray.length)
+  if(input['json-to-input']){
+    newValues = filterJSONValues(input['json-to-input'])
+  }else{
+    newValues = generateNewValues(fields, valuesArray, valuesArray.length)
+  }
 }
 
 

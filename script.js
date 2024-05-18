@@ -31,4 +31,4 @@ async function sqlScript(query) {
   }
 }
 
-sqlScript(sql.query)
+//sqlScript(sql.query)
