@@ -1,0 +1,99 @@
+[
+  {
+    "table": "dbo.item_vent",
+    "fields": ["nro_ticket", "cod_producto", "cantidad", "monto_item", "item_venta"],
+    "values": [],
+    "useFaker": true,
+    "isDistributed": true,
+    "years": 10,
+    "function": "venta",
+    "amount": 1000,
+    "json-to-input":"",
+    "addValues": false,
+    "json-file-name": "ventas-distributed2"
+  },
+
+ {
+    "table": "dbo.venta",
+    "fields": ["nro_ticket", "fecha", "cod_empleado", "cod_cliente", "monto"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 10,
+    "function": "ventas",
+    "amount": 1000,
+    "json-to-input":"only-ventas-distributed2.json",
+    "addValues": false,
+    "json-file-name": ""
+  },
+
+  {
+    "table": "dbo.item_vent",
+    "fields": ["nro_ticket", "fecha", "cod_empleado", "cod_cliente", "monto"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 10,
+    "function": "venta",
+    "amount": 1000,
+    "json-to-input":"ventas\\ventas-distributed2.json",
+    "addValues": false,
+    "json-file-name": "only-ventas-distributed2"
+  },
+
+    {
+    "table": "dbo.vent",
+    "fields": ["item_venta"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 10,
+    "function": "ventas",
+    "amount": 1000,
+    "json-to-input":"ventas-distributed2.json",
+    "addValues": false,
+    "json-file-name": "only-item-ventas-distributed2"
+  },
+
+  {
+    "table": "dbo.item_venta",
+    "fields": ["nro_ticket", "cod_producto", "cantidad", "monto_item"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 10,
+    "function": "ventas",
+    "amount": 1000,
+    "json-to-input":"ventas\\only-item-ventas-distributed2.json",
+    "addValues": false,
+    "json-file-name": ""
+  },
+
+  {
+    "table": "dbo.asistenci",
+    "fields": ["cod_cliente", "fecha"],
+    "values": [],
+    "useFaker": true,
+    "isDistributed": true,
+    "years": 1,
+    "function": "asistencia",
+    "amount": 1,
+    "json-to-input":"",
+    "addValues": false,
+    "json-file-name": "asistencia-cliente"
+  },
+
+   {
+    "table": "dbo.asistencia",
+    "fields": ["cod_cliente", "fecha"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 1,
+    "function": "asistencia",
+    "amount": 1,
+    "json-to-input":"asistencia-cliente.json",
+    "addValues": false,
+    "json-file-name": ""
+  }
+]
