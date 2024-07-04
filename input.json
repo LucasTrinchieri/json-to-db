@@ -1,12 +1,13 @@
-{
-  "table": "dbo.empleado",
-  "fields": ["legajo", "telefono"],
-  "values": [],
-  "useFaker": true,
-  "isDistributed": false,
-  "years": 0,
-  "function": "empleado",
-  "amount": 2,
-  "json-to-input":"empleados.json",
-  "json-file-name": ""
-}
+  {
+    "table": "dbo.asistencia",
+    "fields": ["cod_cliente", "fecha"],
+    "values": [],
+    "useFaker": false,
+    "isDistributed": true,
+    "years": 1,
+    "function": "asistencia",
+    "amount": 1,
+    "json-to-input":"asistencia-cliente.json",
+    "addValues": false,
+    "json-file-name": ""
+  }
