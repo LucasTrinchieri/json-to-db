@@ -1,6 +1,6 @@
 const json = require('../data.json')
 const input = require('../input.json')
-const {filterValues, filterJSONValues} = require('./filter-data.js')
+const {filterValues, filterJSONValues, storeDataArray} = require('./filter-data.js')
 
 const fields = input.fields
 const valuesArray = input.values
@@ -15,7 +15,7 @@ if(input.useFaker){
                           })
 }else{
   if(input['json-to-input']){
-    newValues = filterJSONValues(input['json-to-input'])
+    newValues = filterJSONValues(input['json-to-input'], input['json-file-name'])
   }else{
     newValues = generateNewValues(fields, valuesArray, valuesArray.length)
   }
@@ -36,12 +36,16 @@ function generateObj(fields, valores) {
   return obj;
 }
 
-function generateNewValues(fields, valoresArray, cantidad){
-  let newValues = []
+function generateNewValues(fields, valoresArray, cantidad){  
+  let newValues = []  
   
   for (let i = 0; i < cantidad; i++){
     const newObj = generateObj(fields, valoresArray[i])
     newValues[i] = newObj
+  }
+
+  if(input['json-file-name']){
+    storeDataArray(newValues, input['json-file-name'])
   }
 
   return newValues
